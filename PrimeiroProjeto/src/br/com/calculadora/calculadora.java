@@ -2,8 +2,6 @@ package br.com.calculadora;
 
 import java.util.Scanner;
 
-import com.azul.crs.client.sysinfo.SystemInfoProvider;
-
 public class calculadora {
 
 	public static void main(String[] args) {
