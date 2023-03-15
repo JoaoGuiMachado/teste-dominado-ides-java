@@ -2,12 +2,14 @@ package br.com.calculadora;
 
 import java.util.Scanner;
 
+import com.azul.crs.client.sysinfo.SystemInfoProvider;
+
 public class calculadora {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		
-		Double a, b;
+		double a, b;
 		
 		System.out.println("Digite o primeiro valor: ");
 		a = scan.nextDouble();
