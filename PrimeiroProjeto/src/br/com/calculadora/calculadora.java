@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class calculadora {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+	try (Scanner scan = new Scanner(System.in)) {
 		
 		double a, b;
 		
@@ -23,7 +23,7 @@ public class calculadora {
 		System.out.println("subtracao: " + subtracao);
 		System.out.println("divisao: " + divisao);
 		System.out.println("multiplicacao: " + multiplicacao);
-		
+		}
 	}
 
 	public static double soma(Double a, Double b)	{
