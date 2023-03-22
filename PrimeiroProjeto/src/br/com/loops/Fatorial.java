@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Fatorial {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+       try (Scanner scan = new Scanner(System.in)) {
 
         System.out.println("Digite o número: ");
         int fatorial = scan.nextInt();
@@ -18,6 +18,6 @@ public class Fatorial {
         }
 
         System.out.println(multiplicacao);
-
+        }
     }
 }
