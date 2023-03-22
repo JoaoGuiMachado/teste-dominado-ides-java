@@ -6,11 +6,11 @@ public class NomeEIdade {
     
     public static void main(String[] args) {
         
-        Scanner scan = new Scanner(System.in);
+        try (Scanner scan = new Scanner(System.in)) {
         
         String nome;
-        int idade;
-
+        int idade; 
+        
         while(true) {
 
         System.out.println("Nome: ");
@@ -18,12 +18,13 @@ public class NomeEIdade {
         if(nome.equals("0")) break;
 
         System.out.println("Idade: ");
-        idade = scan.nextInt();
+        scan.nextInt();
         
         }
 
         System.out.println("Acabou o loop ;)");
-
+        
+        }
     }
 
 }
