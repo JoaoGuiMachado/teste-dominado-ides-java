@@ -9,15 +9,15 @@ public class Fatorial {
         System.out.println("Digite o número: ");
         int fatorial = scan.nextInt();
 
-        int multiplicacao = 1;
+        double multiplicacao = 1;
 
-        System.out.println(fatorial + "! = ");
+        System.out.print(fatorial + "! = ");
         for( int i = fatorial; i >= 1; i--) {
            multiplicacao = multiplicacao * i;
 
         }
 
-        System.out.println(multiplicacao);
+        System.out.print(multiplicacao);
         }
     }
 }
