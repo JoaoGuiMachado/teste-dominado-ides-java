@@ -39,6 +39,10 @@ public class Carro {
     double totalValorTanque(double valorCombustivel) {
         return capacidadeTanque * valorCombustivel;
     }
+
+    public char[] valorCombustivel(double d) {
+        return null;
+    }
     
 }
 
