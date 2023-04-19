@@ -12,7 +12,8 @@ public class teste {
         double numero;
         //TODO: Implemente as condições adequadas para obter a quantidade 
        //de valores positivos e a média dos valores positivos:
-           for (int i = cont ; i < 6 ; i++) {
+           for (int i = 0 ; i < 6 ; i++) {
+                System.out.println("Insira o " + (i + 1) + "º");
                numero = leitor.nextDouble();
                
                if(numero >= 0){
